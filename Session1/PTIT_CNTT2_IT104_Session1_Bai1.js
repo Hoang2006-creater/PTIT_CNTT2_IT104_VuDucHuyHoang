@@ -1,4 +1,3 @@
-
 for(let i=1;i<=5;i++){
     console.log("%d ben trong vong lap",i);
     
