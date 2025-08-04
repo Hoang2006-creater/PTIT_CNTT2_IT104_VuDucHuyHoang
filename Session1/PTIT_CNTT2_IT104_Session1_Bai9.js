@@ -4,5 +4,5 @@ function sortArrays(arr1,arr2){
     result.splice(result.length,0,...arr2);
     result.sort((a,b)=>a-b);
     console.log(result);
-}
+} 
 sortArrays([1,2,3,5,9],[4,6,7,8]);

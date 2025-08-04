@@ -10,7 +10,10 @@ const respone={
 };
  function extractData({data}) {
     const {title,author}=data;
-    const{name: authorName,email: authorEmail}=author;
+    const{
+        name: authorName,
+        email: authorEmail
+    }=author;
     console.log("title: ",title);
     console.log("author",author);
     console.log("AuthorName: ",authorName);
