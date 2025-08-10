@@ -6,9 +6,3 @@ interface Student{
 function printStudent(student:Student):void{
     console.log(`Ten toi la ${student.name},tôi ${student.age} tuổi và email của tôi là ${student.email}`);
 }
-const student1:Student={
-    name:"Huy Hoang",
-    age:18,
-    email:"h"
-}
-printStudent(student1);

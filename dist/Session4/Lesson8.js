@@ -1,1 +1,36 @@
 "use strict";
+function calculateOrderTotal(order) {
+    let total = 0;
+    for (let item of order.items) {
+        total += item.product.price * item.quanity;
+    }
+    return total;
+}
+function printOrder(order) {
+    console.log(`Don hang: ${order.orderId}`);
+    console.log(`Khach hang:${order.customerName}`);
+    console.log("San phan");
+    for (let item of order.items) {
+        const name = item.product.name;
+        const qty = item.quanity;
+        const price = item.product.price * qty;
+        console.log(`- ${name} × ${qty} → ${price.toLocaleString()} VND`);
+    }
+    const total = calculateOrderTotal(order);
+    console.log(`Tong cong: ${total.toLocaleString()} VND`);
+    if (order.note) {
+        console.log(`Ghi chu: ${order.note}`);
+    }
+}
+const shirt = { id: "p1", name: "Ao so mi", price: 250000 };
+const pants = { id: "p2", name: "Quan tay", price: 400000 };
+const myOrder = {
+    orderId: "ORD001",
+    customerName: "Nguyen Van A",
+    items: [
+        { product: shirt, quanity: 2 },
+        { product: pants, quanity: 1 }
+    ],
+    note: "Giao sau 18h"
+};
+printOrder(myOrder);
