@@ -2,11 +2,11 @@ interface Person{
     name:string,
     age:number
 }
-interface Employee{
+interface EmployeeInfo{
     employeeId :string,
     department:string
 }
-type StaffMember =Person & Employee
+type StaffMember =Person & EmployeeInfo
 function  printStaffInfo(staff:StaffMember):void{
     console.log(`${staff.name}(${staff.age} tuoi), Ma nhan vien ${staff.employeeId}-Phong: ${staff.department}`);
 }
