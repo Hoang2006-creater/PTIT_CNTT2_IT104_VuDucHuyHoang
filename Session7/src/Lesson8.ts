@@ -57,7 +57,6 @@ class CheckingAccount extends Account {
         this.overdraftLimit = overdraftLimit;
     }
 
-
     withdraw(amount: number): void {
         if (this.status !== "active") {
             console.log(" Tài khoản đang bị khóa, không thể rút tiền.");
@@ -67,6 +66,7 @@ class CheckingAccount extends Account {
             console.log(" Số tiền rút phải lớn hơn 0.");
             return;
         }
+      
         if (this.balance - amount < -this.overdraftLimit) {
             console.log(` Không thể rút quá hạn mức thấu chi: ${this.overdraftLimit}`);
             return;
@@ -81,8 +81,8 @@ class CheckingAccount extends Account {
 const checkAcc = new CheckingAccount("987654321", 2000, 1000);
 
 checkAcc.deposit(500);     
-checkAcc.withdraw(2200);  
-checkAcc.withdraw(500);    
+checkAcc.withdraw(2200);   
+checkAcc.withdraw(500);   
 checkAcc.deposit(1000);    
 
 checkAcc.showHistory();
