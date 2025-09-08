@@ -1,11 +1,9 @@
-import Ex7 from "./component/Ex7"
-function App() {
+import TodoApp from "./components/TodoApp"
 
+export default function App() {
   return (
-    <>
-  <Ex7/>
-    </>
+<>
+   <TodoApp/>
+   </>
   )
 }
-
-export default App
