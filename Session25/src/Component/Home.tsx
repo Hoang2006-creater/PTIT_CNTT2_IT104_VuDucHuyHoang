@@ -1,7 +1,5 @@
-
-
 export default function Home() {
   return (
-    <div>Home</div>
+    <div>Day la trang chu</div>
   )
 }

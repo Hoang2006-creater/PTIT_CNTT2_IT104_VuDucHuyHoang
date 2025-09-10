@@ -1,6 +1,6 @@
 
 export default function Contact() {
   return (
-    <div>Contact</div>
+    <div>Day la trang lien he </div>
   )
 }
