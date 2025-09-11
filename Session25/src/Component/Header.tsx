@@ -6,7 +6,7 @@ export default function Header() {
    <nav className="nav">
     <NavLink to="/" end className={({isActive})=>(isActive?"active":"")}>
     Home</NavLink>
-    <NavLink to="/produc"className={({isActive})=>(isActive?"active":"")}>
+    <NavLink to="/product"className={({isActive})=>(isActive?"active":"")}>
     Product</NavLink>
     <NavLink to="/detail" className={({isActive})=>(isActive?"active":"")}>
     Detail</NavLink>

@@ -15,8 +15,8 @@ export default function Index() {
       <Route path="/contact" element={<Contact/>}/>
          <Route path="/login" element={<Login/>}/>
          <Route path="/register" element={<Register/>}/>
-         <Route path="*" element={<NotFound/>}></Route>
-         <Route path="/home-page"element={<HomePage/>}></Route>
+         <Route path="*" element={<NotFound/>}/>
+         <Route path="/home-page"element={<HomePage/>}/>
       </Routes>
     </div>
   )
