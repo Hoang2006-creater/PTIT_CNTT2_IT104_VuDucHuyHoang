@@ -9,7 +9,7 @@ export default function GetAllProduct() {
         quantity:number,
         created_at:string,
     }
-    const [products,setProducts]= useState<ProductType[]>([])
+    const [,setProducts]= useState<ProductType[]>([])
     const getAllProduct=async()=>{
         fetch("http://localhost:3000/product")
         .then((respone)=>respone.json())
