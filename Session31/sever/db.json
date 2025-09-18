@@ -1,0 +1,20 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "title": "State trong ReactJS",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSttSqxL4SK4QbqcYeGATAQv1yV-YF5xjritw&s",
+      "content": "Noi dung ve state trong ReactJS",
+      "date": "2024-03-04",
+      "status": "Da xuat ban"
+    },
+    {
+      "id": 2,
+      "title": "Tong quan ve ReactJS",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBfOAIn68nMabIabucqB50YDezw6z1FUdBCQ&s",
+      "content": "Noi dung tong quan ve ReactJS",
+      "date": "2024-03-03",
+      "status": "Da xuat ban"
+    }
+  ]
+}
