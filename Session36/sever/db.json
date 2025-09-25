@@ -1,0 +1,34 @@
+{
+  "TaskList": [
+    {
+      "id": 1,
+      "title": "Học Redux Toolkit",
+      "completed": false,
+      "priority": "high"
+    },
+    {
+      "id": 2,
+      "title": "Làm bài tập TS",
+      "completed": false,
+      "priority": "medium"
+    },
+    {
+      "id": 3,
+      "title": "Học và ôn tập",
+      "completed": false,
+      "priority": "high"
+    },
+    {
+      "id": 4,
+      "title": "Giải trí và học tập ",
+      "completed": false,
+      "priority": "low"
+    },
+    {
+      "title": "Học tập reduce",
+      "completed": false,
+      "priority": "medium",
+      "id": 5
+    }
+  ]
+}
