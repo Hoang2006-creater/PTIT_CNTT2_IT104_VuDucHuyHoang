@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Nguyễn Văn An",
-      "age": 13,
+      "age": 16,
       "grade": "10A1"
     },
     {
@@ -19,9 +19,9 @@
       "grade": "10A2"
     },
     {
-      "name": "Nguyễn Văn B",
-      "age": 18,
-      "grade": "10A2",
+      "name": "Huy Hoang",
+      "age": 16,
+      "grade": "10D0",
       "id": 4
     }
   ]
